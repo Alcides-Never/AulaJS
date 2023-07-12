@@ -72,7 +72,7 @@
 
 
 
-Exercicio 6
+// Exercicio 6
 
 let prompt = require("prompt-sync")()
 
@@ -83,4 +83,10 @@ let notaQuatro = parseFloat(prompt("Digite a primeira nota: "))
 
 let media = ((notaUm + notaDois + notaTres + notaQuatro) / 4)
 
-if (media> 7.0)
+if (media >= 7.0){
+    console.log("Aprovado")
+} else if(media < 7.0 && media >= 5.0){
+    console.log("Recuperação")
+} else {
+    console.log("Reprovado")
+}
