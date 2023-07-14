@@ -89,3 +89,10 @@
 // let media = ((notaUm + notaDois + notaTres + notaQuatro) / 4)
 
 // if (media> 7.0)
+if (media >= 7.0){
+    console.log("Aprovado")
+} else if(media < 7.0 && media >= 5.0){
+    console.log("Recuperação")
+} else {
+    console.log("Reprovado")
+}
