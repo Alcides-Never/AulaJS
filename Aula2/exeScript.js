@@ -11,7 +11,9 @@
 //     let calculo = ((10*salario)/100) + salario;
 //     console.log("Nome: " + nome) ;
 //     console.log("Cargo: " + cargo) ;
-//     console.log("Salario Reajustado: R$" + calculo)
+//     console.log("Salario Reajustado: R$" + calculo.tofixed(2))
+//     console.log("Salario ${calculo.}}tofixed(2)`")  -- Outra forma de declarar variável
+
 // }
 
 
@@ -25,7 +27,8 @@
 //     let calculo = ((30*salario)/100) + salario;
 //     console.log("Salario reajustado R$" + calculo)
 // } else {
-//     console.log("Sem direito")
+//     // console.log("Sem direito")
+//     console.log(`Seu salario é de R$${salario}, logo não terá direito`)
 // }
 
 
@@ -38,8 +41,10 @@
 
 // if ( valor > 0){
 //     console.log("positivo")
-// } else {
+// } else if (valor < 0){
 //     console.log("negativo")
+// } else {
+//     console.log("Zero vale nada")
 // }
 
 
@@ -72,15 +77,15 @@
 
 
 
-Exercicio 6
+// Exercicio 6
 
-let prompt = require("prompt-sync")()
+// let prompt = require("prompt-sync")()
 
-let notaUm = parseFloat(prompt("Digite a primeira nota: "))
-let notaDois = parseFloat(prompt("Digite a primeira nota: "))
-let notaTres = parseFloat(prompt("Digite a primeira nota: "))
-let notaQuatro = parseFloat(prompt("Digite a primeira nota: "))
+// let notaUm = parseFloat(prompt("Digite a primeira nota: "))
+// let notaDois = parseFloat(prompt("Digite a primeira nota: "))
+// let notaTres = parseFloat(prompt("Digite a primeira nota: "))
+// let notaQuatro = parseFloat(prompt("Digite a primeira nota: "))
 
-let media = ((notaUm + notaDois + notaTres + notaQuatro) / 4)
+// let media = ((notaUm + notaDois + notaTres + notaQuatro) / 4)
 
-if (media> 7.0)
+// if (media> 7.0)
